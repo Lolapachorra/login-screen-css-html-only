@@ -1,0 +1,166 @@
+.container{
+   display:flex;
+   background-color: black;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+
+    body{
+      background-color: blue;
+      font-family: Arial, sans-serif;
+    }
+    .login{
+      background-color: red;
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex: wrap;
+      display: flex;
+      border: solid 5px blue;
+    }
+    .item{
+      
+      background-color: yellow;
+      border-radius: 5px;
+      
+      cursor: pointer;
+    }
+    p{
+      color: grey;
+    }
+    button{
+      
+      margin: 10;
+      background-color: brown;
+      color: whitesmoke;
+      border-radius: 20px 20px 20px 20px;
+      text-align: center;
+    }
+  
+      
+      
+      
+    
+    #twitter {
+      margin: 10px;
+      background-color: #1DA1F2; /* Twitter blue color */
+      color: white;
+      border-radius: 20px 20px 20px 20px;
+      display: flex;
+      
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      margin: 10px 0 0;
+    }
+    #facebook{
+      margin: 10px;
+      background-color: #4267B2; /* Facebook blue color */
+      color: white;
+      border-radius: 20px 20px 20px 20px;
+      display: flex;
+      
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      margin: 10px 0 0
+      
+    }
+      #gmail {
+        margin: 10px;
+        background-color: #D44638; /* Gmail red color */
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        margin: 10px 0 0;
+      }
+      
+      #gmail img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+    .social-button {
+      margin: 10px;
+      background-color: #D44638; /* Gmail red color */
+      color: white;
+      border-radius: 20px 20px 20px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      margin: 10px 0 0;
+    }
+    
+    .social-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    
+    #twitter {
+      background-color: #1DA1F2; /* Twitter blue color */
+    }
+    
+    #facebook {
+      background-color: #4267B2; /* Facebook blue color */
+    }
+
+
+
+
+
+
+
+
+    .container {
+      background-color: #F5F5F5; /* Light gray background */
+    }
+    
+    body {
+      background-color: #F5F5F5; /* Light gray background */
+    }
+    
+    .login {
+      background-color: #FFFFFF; /* White background */
+      border: solid 5px #4267B2; /* Facebook blue border */
+    }
+    
+    .item {
+      background-color: #F5F5F5; /* Light gray background */
+    }
+    
+    p {
+      color: #666666; /* Dark gray text */
+    }
+    
+    button {
+      background-color: #4267B2; /* Facebook blue background */
+      color: #FFFFFF; /* White text */
+    }
+    
+    img {
+      filter: brightness(100%); /* Keep original image colors */
+    }
+    
+    /* Keep social button colors as they are */
+    #twitter {
+      background-color: #1DA1F2; /* Twitter blue color */
+    }
+    
+    #facebook {
+      background-color: #4267B2; /* Facebook blue color */
+    }
+    
+    #gmail {
+      background-color: #D44638; /* Gmail red color */
+    }
