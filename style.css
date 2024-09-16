@@ -1,20 +1,27 @@
 .container{
    display:flex;
-   background-color: black;
+   background-color: #F5F5F5; 
   height: 100%;
   width: 100%;
   flex-direction: column;
  justify-content: center;
  align-items: center;
  align-content: center;
+ background-image: url('https://th.bing.com/th/id/R.56dde41aee17e96425987f751a9269ce?rik=PimP3aKlBih1aA&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f09%2ftropical_beach_blue_summer_sea_emerald_sand_hd-wallpaper-1701606.jpg&ehk=OVN5KYNNiPQtsbvJxJZF3%2fZMhpDEpVc4ebUXS5y20%2f4%3d&risl=&pid=ImgRaw&r=0'); /* Add your image path here */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  filter: blur(300%);
+ 
 }
 
-    body{
-      background-color: blue;
-      font-family: Arial, sans-serif;
-    }
+body {
+  background-color: black; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+    
     .login{
-      background-color: red;
+      background-color: #FFFFFF; /* White background */
       flex-direction: column;
       padding: 20px;
       align-items: center;
@@ -22,34 +29,37 @@
       align-content: center;
       flex: wrap;
       display: flex;
-      border: solid 5px blue;
+      border: solid 5px #4267B2; 
     }
     .item{
       
-      background-color: yellow;
+      background-color: #F5F5F5; /* Light gray background */
       border-radius: 5px;
       
       cursor: pointer;
     }
     p{
-      color: grey;
+      color: #666666; /* Dark gray text */
     }
     button{
       
       margin: 10;
-      background-color: brown;
-      color: whitesmoke;
+      background-color: #4267B2; /* Facebook blue background */
+      color: #FFFFFF; /* White text */
       border-radius: 20px 20px 20px 20px;
       text-align: center;
     }
   
+    img {
+      filter: brightness(100%); 
+    }
       
       
       
     
     #twitter {
       margin: 10px;
-      background-color: #1DA1F2; /* Twitter blue color */
+      background-color: #D44638; /* Gmail red color */
       color: white;
       border-radius: 20px 20px 20px 20px;
       display: flex;
@@ -74,7 +84,7 @@
     }
       #gmail {
         margin: 10px;
-        background-color: #D44638; /* Gmail red color */
+        background-color: #1DA1F2; /* Twitter blue color */
         color: white;
         border-radius: 20px 20px 20px 20px;
         display: flex;
@@ -108,59 +118,17 @@
     }
     
     #twitter {
-      background-color: #1DA1F2; /* Twitter blue color */
-    }
-    
-    #facebook {
-      background-color: #4267B2; /* Facebook blue color */
-    }
-
-
-
-
-
-
-
-
-    .container {
-      background-color: #F5F5F5; /* Light gray background */
-    }
-    
-    body {
-      background-color: #F5F5F5; /* Light gray background */
-    }
-    
-    .login {
-      background-color: #FFFFFF; /* White background */
-      border: solid 5px #4267B2; /* Facebook blue border */
-    }
-    
-    .item {
-      background-color: #F5F5F5; /* Light gray background */
-    }
-    
-    p {
-      color: #666666; /* Dark gray text */
-    }
-    
-    button {
-      background-color: #4267B2; /* Facebook blue background */
-      color: #FFFFFF; /* White text */
-    }
-    
-    img {
-      filter: brightness(100%); /* Keep original image colors */
-    }
-    
-    /* Keep social button colors as they are */
-    #twitter {
-      background-color: #1DA1F2; /* Twitter blue color */
-    }
-    
-    #facebook {
-      background-color: #4267B2; /* Facebook blue color */
-    }
-    
-    #gmail {
       background-color: #D44638; /* Gmail red color */
     }
+    
+    #facebook {
+      background-color: #4267B2; /* Facebook blue color */
+    }
+
+
+
+
+
+
+
+
