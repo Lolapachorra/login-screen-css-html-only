@@ -128,7 +128,26 @@ body {
 
 
 
-
+    button:active {
+      transform: scale(0.95); /* Reduce the size of the button */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    }
+    
+    #twitter:active {
+      background-color: darken(#D44638, 10%); /* Darken the Twitter button color */
+    }
+    
+    #facebook:active {
+      background-color: darken(#4267B2, 10%); /* Darken the Facebook button color */
+    }
+    
+    #gmail:active {
+      background-color: darken(#1DA1F2, 10%); /* Darken the Gmail button color */
+    }
+    
+    .social-button:active {
+      background-color: darken(#D44638, 10%); /* Darken the Gmail button color */
+    }
 
 
 
